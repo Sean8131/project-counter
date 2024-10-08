@@ -1,9 +1,15 @@
 console.log("hey");
 
+let count = 0;
+
 function alertUser () {
-    alert("This is an alert");
+    count++;
+    let label = document.getElementById("display-counter");
+    label.innerText = `Clicked ${count} times`; 
 }
 
 const clicked = document.getElementById("main-button");
 
 clicked.addEventListener('click', alertUser);
+
+
