@@ -12,4 +12,6 @@ const clicked = document.getElementById("main-button");
 
 clicked.addEventListener('click', alertUser);
 
+// amending commit message
+
 
