@@ -1,3 +1,16 @@
 .main-container {
     text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: bisque;
+
+}
+
+
+#counter-button {
+    margin: 10px;
+    background-color: lightcyan;
 }
