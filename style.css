@@ -22,3 +22,10 @@ body{
     margin: 10px;
     background-color: lightcyan;
 }
+
+.inner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
