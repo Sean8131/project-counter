@@ -4,7 +4,7 @@ const counterButton = document.getElementById('counter-button');
 
 const displayCounter = document.getElementById('display-counter');
 
-let timeOrTimes
+let timeOrTimes;
 
 counterButton.addEventListener('click', function(){
     counter++;
